@@ -1,0 +1,40 @@
+Notes
+Application URL => http://localhost:9080/master-service/hello
+
+Spring Boot Actuator URL => http://localhost:9080/master-service/actuator
+
+
+
+
+Rest Service examples - Examples for different ways to create webservice endpoints
+
+URLs
+
+master-service ==>>
+
+http://localhost:9080/master-service/hello
+
+http://localhost:9080/master-service/child-one-list
+
+http://localhost:9080/master-service/child-one-get/key_3
+
+http://localhost:9080/master-service/child-two-list
+
+http://localhost:9080/master-service/child-two-get/key_3
+
+
+
+Child One
+---------
+
+http://localhost:9081/child-service/user-list
+
+http://localhost:9081/child-service/get-user/key_4
+
+Child-Two
+----------
+http://localhost:9082/child-two-service/finance-list
+
+http://localhost:9082/child-two-service/finance/key_3
+
+http://localhost:9082/child-two-service/put-finance
