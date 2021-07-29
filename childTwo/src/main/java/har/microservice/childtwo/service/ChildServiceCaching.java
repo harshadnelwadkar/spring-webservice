@@ -32,7 +32,7 @@ public class ChildServiceCaching {
 		return new ArrayList(dataMap.values());
 	}
 	
-	public FinanceDetails getFinance(String key) {
+	public static FinanceDetails getFinance(String key) {
 		return dataMap.get(key);
 	}
 	
